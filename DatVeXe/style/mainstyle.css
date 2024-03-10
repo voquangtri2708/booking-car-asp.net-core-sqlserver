@@ -1,0 +1,100 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+}
+
+.daude {
+    background-color: cornflowerblue;
+    text-align: right;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+    .daude a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+    }
+
+    .daude ul li {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+
+.menu {
+    text-align: center;
+}
+
+    .menu ul li {
+        display: inline-block;
+    }
+
+.list li a:hover {
+    color: cornflowerblue;
+}
+
+.view {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.dulich {
+    text-align: center;
+}
+
+.noidung {
+    border: 3px solid cornflowerblue;
+    width: 880px;
+    height: 380px;
+}
+
+.chuyenxehot {
+    border: 3px solid cornflowerblue;
+    text-align: center;
+    width: 250px;
+    height: 380px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.list_left {
+    text-align: center;
+    border: 3px solid cornflowerblue;
+    padding: 5px;
+    height: 302px;
+    width: 300px;
+    padding: 0px;
+}
+
+    .list_left link-button {
+        padding: 10px 20px;
+        text-decoration: none;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+.content {
+    text-align: center;
+}
+
+.mid {
+    padding-left: 130px;
+}
+
+.login {
+    padding: 70px;
+    padding-left: 300px;
+}
+
+.ttk {
+    border: 3px solid cornflowerblue;
+    text-align: center;
+}
+
+.gioithieu{
+    font-size: 24px;
+}

@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="trangchu.master.cs" Inherits="DatVeXe.trangchu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="style/mainstyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="daude">
+                <ul>
+                    <li>
+                        <a href="tel:19009999">Hotline : 0347830406</a></li>
+                    <li>
+                        <a href="mailto:hotro@duytan.edu">Mail : voquangtri@dtu.edu.vn</a></li>
+                    <li>
+                        <asp:Button ID="btLogin" runat="server" Text="Đăng Nhập" OnClick="btLogin_Click1" Width="110px" /></li>
+                    <li>
+                        <asp:Button ID="bt_ttk" runat="server" Text="Tạo tài khoản" OnClick="Button1_Click" Width="110px" /></li>
+                </ul>
+            </div>
+        </header>
+        <div class="menu">
+            <ul class="list">
+                <li>
+                    <a href="default.aspx" class="view">TRANG CHỦ</a>
+                </li>
+                <li>
+                    <a href="gioithieu.aspx" class="view">GIỚI THIỆU</a>
+                </li>
+                <li>
+                    <a href="dulich.aspx" class="view">DU LỊCH</a>
+                </li>
+                <li>
+                    <a href="uudai.aspx" class="view">ƯU ĐÃI</a>
+                </li>
+                <li>
+                    <a href="donhang.aspx" class="view">VÉ ĐÃ ĐẶT</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <img src="images/poster.png" />
+        </div>
+        <div class="mid">
+            <table>
+                <tr>
+                    <td class="chuyenxehot">
+                        <h3>CÁC CHUYẾN HOT</h3>
+                        <br />
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Sài Gòn - Đà Lạt</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Đà Nẵng - Hà Nội</asp:LinkButton><br />
+                        <br />
+                        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Hà Nội - Hải Phòng</asp:LinkButton><br />
+                        <br />
+                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Sài Gòn - Cần Thơ</asp:LinkButton><br />
+                        <br />
+                        <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">Quy Nhơn - Đà Nẵng</asp:LinkButton>
+
+                    </td>
+                    <td>
+                        <div class="noidung">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+
+    </form>
+</body>
+</html>
